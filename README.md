@@ -9,6 +9,9 @@ the products cards when you press the card you will get the bottom sheet for mor
 `pip install kivy`
 `pip install kivymd`
 
+[watch on YouTube ](https://youtu.be/k-VCWd2bvO8)
+
+
 
 ![Screenshot](AppScreenshot.jpg)
 
