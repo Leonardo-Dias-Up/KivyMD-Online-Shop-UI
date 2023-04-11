@@ -18,8 +18,11 @@ class MainApp(MDApp):
         bottom_sheet.price=price
         self.custom_sheet = MDCustomBottomSheet(screen=bottom_sheet)
         self.custom_sheet.open()
+        
     def build(self):
         self.title = 'KivyMD Online Shop'
         self.theme_cls.primary_palette = "Teal"
+        Builder.load_file('main.kv')
+       
 
 MainApp().run()
